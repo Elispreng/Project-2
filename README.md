@@ -22,13 +22,13 @@ Adult Income Datat Set: [https://www.kaggle.com/datasets/wenruliu/adult-income-d
 ## Results
 
 #### Visual 1: Barplot Graph Showing Income and Age
-![alt text](https://github.com/Elispreng/Project-2/commit/b399030782a8d414d26eb52cabd743cab0c78107)
+![alt text](https://github.com/Elispreng/Project-2/blob/main/Income%20and%20Age.png)
 
 This barplot shows a relationship between income and age. More specifically, the liklihood of earning more than 50K occurs in the mid-forties. 
 
 #### Visual 2 Bar  Graph Showing Outlet Year and MRP
 
-![alt text](https://github.com/Elispreng/Project-2/commit/b399030782a8d414d26eb52cabd743cab0c78107)
+![alt text](https://github.com/Elispreng/Project-2/blob/main/Income_Education%20and%20Gender.png)
 
 
 These two provide a surprising outcome. They show that the most important factor is age in achieving a 50K income: neither gender or education affect this economic
