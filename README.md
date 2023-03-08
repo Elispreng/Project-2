@@ -51,10 +51,7 @@ outcome
         >50K       0.73      0.58      0.65      2853
 
     accuracy                           0.84     11491
-   macro avg       0.80      0.76      0.77     11491
-weighted avg       0.84      0.84      0.84     11491
-
-         
+        
      
 ## Recommendations:
 
