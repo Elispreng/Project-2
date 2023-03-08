@@ -1,4 +1,4 @@
-# Project-2: Jumping the Middle Class Gap
+# Project-2: Jumping into the Middle Class 
 ![alt text](https://github.com/Elispreng/Project-2/blob/main/US%20Income.jpg)
 
 # Data Science and American Middle Class
