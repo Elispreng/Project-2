@@ -1,5 +1,5 @@
 # Project-2
-![alt text](US Income.jpg)
+![alt text](https://github.com/Elispreng/Project-2/blob/main/US%20Income.jpg)
 
 # Data Science and American Middle Class
 ## Anazlyzing US Incomes Greater and Less Than 50K
