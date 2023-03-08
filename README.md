@@ -42,15 +42,19 @@ outcome
 
 ### Random Forest Model Test Scores (Best Model)
 
-         precision    recall  f1-score   support
+------------------------------------------------------------
+[i] CLASSIFICATION REPORT FOR: Test Data
+------------------------------------------------------------
+              precision    recall  f1-score   support
 
-       <=50K       0.88      0.93      0.90      8638
-        >50K       0.74      0.62      0.67      2853
+       <=50K       0.87      0.93      0.90      8638
+        >50K       0.73      0.58      0.65      2853
 
-    accuracy                           0.85     11491
-   macro avg       0.81      0.77      0.79     11491
-weighted avg       0.84      0.85      0.85     11491
+    accuracy                           0.84     11491
+   macro avg       0.80      0.76      0.77     11491
+weighted avg       0.84      0.84      0.84     11491
 
+         
      
 ## Recommendations:
 
