@@ -1,4 +1,4 @@
-# Project-2
+# Project-2: Jumping the Middle Class Gap
 ![alt text](https://github.com/Elispreng/Project-2/blob/main/US%20Income.jpg)
 
 # Data Science and American Middle Class
@@ -21,51 +21,55 @@ Adult Income Datat Set: [https://www.kaggle.com/datasets/wenruliu/adult-income-d
 
 ## Results
 
-#### Visual 1: Bar Graph Showing Outlet Year and Sales
-![alt text](https://github.com/Elispreng/Project-1-Food-Sales-and-Store-Cultures/blob/main/Spreng%20Outlet%20Year%20and%20Sales.png)
+#### Visual 1: Barplot Graph Showing Income and Age
+![alt text](https://github.com/Elispreng/Project-2/commit/b399030782a8d414d26eb52cabd743cab0c78107)
 
-The graph addresses answers the question "What year has the highest item  sales?" The highest item sales were in 2004.
+This barplot shows a relationship between income and age. More specifically, the liklihood of earning more than 50K occurs in the mid-forties. 
 
 #### Visual 2 Bar  Graph Showing Outlet Year and MRP
 
-![alt text](https://github.com/Elispreng/Project-1-Food-Sales-and-Store-Cultures/blob/main/Spreng%20Outlet%20Year%20and%20MRP.png)
+![alt text](https://github.com/Elispreng/Project-2/commit/b399030782a8d414d26eb52cabd743cab0c78107)
 
 
-This bar graph answers the question "What  year has the tighest MRP?" The highest MRP was in 2004
+These two provide a surprising outcome. They show that the most important factor is age in achieving a 50K income: neither gender or education affect this economic
+outcome
 
 ## Machine learning and metrics
 - Baseline Model
-- Logistic Regression Model
+- Logistic Regression with PCA Model
 - Random Forest Model
 
-### Linear Regression Metrics:
+### Baseling Metrics:
+ precision    recall  f1-score   support
 
-- Model Training R2: 0.6714424977432687
-- Model Testing R2: 2.0994337117833997e-05
+       <=50K       0.76      1.00      0.86     27831
+        >50K       0.00      0.00      0.00      8761
 
-### Decision Tree Model Train Scores
- - MAE: 0.0 
- - MSE: 0.0
- - RMSE: 0.0 
- - R2: 1.0
+    accuracy                           0.76     36592
+   macro avg       0.38      0.50      0.43     36592
+weighted avg       0.58      0.76      0.66     36592
 
-### Decision Tree Model Test Scores
- - MAE: 992.5956 
- - MSE: 2103175.480
- - RMSE: 1450.2329
- - R2: 0.2376974
 
-### Bagged Trees Model Train Scores
- -  MAE: 316.5676
- -  MSE: 240010.0091
- -  RMSE: 489.9082
- -  R2: 0.9189006
+### Logistic Regression with PCA Metrics Test Scores
+    precision    recall  f1-score   support
 
-### Bagged Trees Model Test Scores
- - MAE: 785.6302
- - MSE: 1279423.2806
- - RMSE: 1131.1159
- - R2: 0.536269
+       <=50K       0.87      0.93      0.90      9278
+        >50K       0.72      0.56      0.63      2920
+
+    accuracy                           0.84     12198
+   macro avg       0.80      0.75      0.77     12198
+weighted avg       0.84      0.84      0.84     12198
+
+
+### Random Forest Model Test Scores
+             precision    recall  f1-score   support
+
+       <=50K       0.87      0.93      0.90      9278
+        >50K       0.71      0.57      0.63      2920
+
+    accuracy                           0.84     12198
+   macro avg       0.79      0.75      0.77     12198
+weighted avg       0.83      0.84      0.84     12198
 
 ## Recommendations:
 
