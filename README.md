@@ -1,5 +1,5 @@
 # Project-2
-![alt text](https://learn.g2.com/hubfs/shopper%20marketing.jpg)
+![alt text](US Income.jpg)
 
 # Data Science and American Middle Class
 ## Anazlyzing US Incomes Greater and Less Than 50K
