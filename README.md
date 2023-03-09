@@ -55,9 +55,8 @@ outcome
      
 ## Recommendations:
 
-From these metrics, the random forest model is the best model with the lowest error and highest R2. For interested stakeholders, more attention should be paid to age a
-and educating people about wealth management and increasing their financial literacy regardless of educational status. Another recommendation is to aim these programs
-at females to help move into the moiddle class sooner. Both  of these focused educational efforts  could help more people  attain greater finacial security earlier
+From these metrics, the random forest model is the best model with accuracy. For interested stakeholders, more attention should be paid to age and educating people about wealth management and increasing their financial literacy regardless of educational status. Another recommendation is to aim these programs
+at females to help move into the middle class sooner. Both  of these focused educational efforts could help more people attain greater finacial security earlier
 in life. 
 
 ## Limitations & Next Steps
