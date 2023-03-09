@@ -55,13 +55,20 @@ outcome
      
 ## Recommendations:
 
-From these metrics, the random forest model is the best model with accuracy. For interested stakeholders, more attention should be paid to age and educating people about wealth management and increasing their financial literacy regardless of educational status. Another recommendation is to aim these programs
+From these metrics, the random forest model is the best model with accuracy. For interested stakeholders, more attention should be paid to age and educating 
+people about wealth management and increasing their financial literacy regardless of educational status. Another recommendation is to aim these programs
 at females to help move into the middle class sooner. Both  of these focused educational efforts could help more people attain greater finacial security earlier
 in life. 
 
 ## Limitations & Next Steps
 
-This project will include more graphics. Another limitation is the dataset which does not match US Census statistics. 
+Another limitation is the dataset which does not match US Census statistics. 
+- Race. In the dataset the percentage of blacks is 8% and the US census is at 14%. 
+- Gender: In the dataset females compose 33% and US census statistics hover around 50% +/-3 percent.
+- Relationship: The husband category composes 40% of the data and does match the close to 50% of males being married. 
+
+## Action Plan
+I recommend closely checking all census data sets  with US Statistics and not using this data set. 
 
 ### For further information
 
